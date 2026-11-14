@@ -48,7 +48,7 @@ export const PORTFOLIO_DATA = {
     email: "bejiesjoseph@gmail.com",
     github: "https://github.com/bejiesjoseph-blip",
     linkedin: "https://linkedin.com/in/bejies-joseph-468a67320",
-    resumeUrl: "/resume.pdf",
+    resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
     about: [
       "I'm an Artificial Intelligence & Data Science student at KCG College of Technology, Chennai (graduating 2028).",
       "I spend most of my time working on backend services and practical AI workflows—building RESTful APIs with FastAPI and Flask, managing relational data in MySQL, and writing retrieval-augmented generation (RAG) pipelines.",
@@ -170,7 +170,7 @@ export const PORTFOLIO_DATA = {
       score: "75% (Proctored Exam)",
       credentialId: "INI25CS03S253900247",
       verificationUrl: "https://swayam.gov.in",
-      fileUrl: "/certificates/nptel-dbms.pdf"
+      fileUrl: `${import.meta.env.BASE_URL}certificates/nptel-dbms.pdf`
     },
     {
       id: "numota-internship",
@@ -180,7 +180,7 @@ export const PORTFOLIO_DATA = {
       score: "Completed",
       credentialId: "Reg. No. 9124243009",
       verificationUrl: "https://numota.in",
-      fileUrl: "/certificates/numota-python-internship-2026.pdf"
+      fileUrl: `${import.meta.env.BASE_URL}certificates/numota-python-internship-2026.pdf`
     },
     {
       id: "infosys-mern",
@@ -188,7 +188,7 @@ export const PORTFOLIO_DATA = {
       issuer: "Infosys Springboard",
       date: "Jul 2026",
       verificationUrl: "https://verify.onwingspan.com",
-      fileUrl: "/certificates/infosys-mern.pdf"
+      fileUrl: `${import.meta.env.BASE_URL}certificates/infosys-mern.pdf`
     },
     {
       id: "nasscom-eda",
@@ -196,7 +196,7 @@ export const PORTFOLIO_DATA = {
       issuer: "FutureSkills Prime (NASSCOM & MeitY)",
       date: "Aug 2026",
       verificationUrl: "https://futureskillsprime.in",
-      fileUrl: "/certificates/nasscom-eda.jpeg"
+      fileUrl: `${import.meta.env.BASE_URL}certificates/nasscom-eda.jpeg`
     },
     {
       id: "infosys-se",
@@ -204,7 +204,7 @@ export const PORTFOLIO_DATA = {
       issuer: "Infosys Springboard",
       date: "Jul 2026",
       verificationUrl: "https://verify.onwingspan.com",
-      fileUrl: "/certificates/infosys-software-engineering.pdf"
+      fileUrl: `${import.meta.env.BASE_URL}certificates/infosys-software-engineering.pdf`
     },
     {
       id: "mathworks-ml",
@@ -212,7 +212,7 @@ export const PORTFOLIO_DATA = {
       issuer: "MathWorks Training Services",
       date: "Oct 2025",
       score: "100%",
-      fileUrl: "/certificates/mathworks-ml-onramp.pdf"
+      fileUrl: `${import.meta.env.BASE_URL}certificates/mathworks-ml-onramp.pdf`
     }
   ] as Certificate[]
 };
